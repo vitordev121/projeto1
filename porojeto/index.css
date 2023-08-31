@@ -1,0 +1,105 @@
+@font-face {
+    font-family: fontebold;
+    src: url(fontes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: fontenormal;
+    src: url(fontes/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #36384D;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #36384D;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 640px;
+    width: 928px;
+    border-radius: 15px;
+}
+
+nav {
+    float: left;
+    width: 531px;
+    height: 640px;
+    padding: 20px;
+}
+nav h1{
+    font-family:fontebold;
+    color: #282A43;
+}
+nav h2{
+    color: #282A43;
+    font-family:fontebold;
+}
+nav ul{
+    color: #282A43;
+    font-family: fontenormal;
+}
+nav h3{
+    color: #282A43;
+    font-family: fontenormal;
+}
+nav input{
+    border-radius: 15px;
+    color: #22264B;
+    width: 300px;
+    height: 50px;
+    size-adjust: 1px;
+    margin-top: 2px;
+    
+}
+nav button{
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+    background-color: #232742;
+    color: white;
+    font-family: fontenormal;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+button:hover{
+    background-image: linear-gradient(#FF5476,#FF6742);
+    font-family: fontenormal;
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+::placeholder{
+    padding: 15px;
+    
+ }
+
+figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    width: 800px;
+    height: 593px;
+    margin: 25px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
