@@ -1,0 +1,60 @@
+@font-face {
+    font-family: fontebold;
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: fontenormal;
+    src: url(Roboto-Regular.ttf);
+}
+body{
+    background-color:#232742;
+}
+main{
+    background-color: white;
+    display: table;
+    justify-content: center;
+    align-items: center;
+    height:505px;
+    width: 515px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+main img{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    
+}
+main h1{
+    font-family:fontebold;
+    color: #282A43;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+main p{
+    font-family: fontenormal;
+}
+main button{
+
+    background-color: #232742;
+    color: white;
+    font-family: fontenormal;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    border-radius: 8px;
+}
+button:hover{
+    background-image: linear-gradient(#FF5476,#FF6742);
+    font-family: fontenormal;
+    width: 343px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    border-radius: 8px;
+    box-shadow:  3px 5px 0px 0px #ff684270;}
